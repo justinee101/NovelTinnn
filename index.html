@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NovelTin – Manga &amp; Novel Library</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header class="hero">
+      <div>
+        <h1>Read. Escape. Repeat.</h1>
+        <p>30 famous manga, light novels and web novels, one chapter overview each.</p>
+        <a href="story-16.html" class="btn">Start with “Solo Leveling”</a>
+      </div>
+      <img src="images/cover-16.jpg" alt="Featured cover">
+    </header>
+    <nav>
+      <a href="index.html" class="brand">NovelTin</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#library">Browse</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <button aria-label="Toggle dark mode" class="btn ghost" id="themeBtn">Dark</button>
+    </nav>
+    <main>
+      <section id="library">
+        <h2>Browse Library</h2>
+        <input id="search" placeholder="Search title or author…" type="search">
+        <div class="chips">
+          <button class="chip active" data-f="All">All</button>
+          <button class="chip" data-f="Action">Action</button>
+          <button class="chip" data-f="Comedy">Comedy</button>
+          <button class="chip" data-f="Fantasy">Fantasy</button>
+          <button class="chip" data-f="Historical">Historical</button>
+          <button class="chip" data-f="Horror">Horror</button>
+          <button class="chip" data-f="Mystery">Mystery</button>
+          <button class="chip" data-f="Romance">Romance</button>
+          <button class="chip" data-f="Sci-Fi">Sci-Fi</button>
+          <button class="chip" data-f="Slice of Life">Slice of Life</button>
+          <button class="chip" data-f="Thriller">Thriller</button>
+        </div>
+        <div class="grid">
+          <article class="card" data-genre="Fantasy" data-title="re:zero − starting life in another world tappei nagatsuki">
+            <img src="images/cover-1.jpg" alt="Cover of Re:Zero − Starting Life in Another World">
+            <div class="info">
+              <span class="tag">Fantasy · Light Novel</span>
+              <h3>Re:Zero − Starting Life in Another World</h3>
+              <p class="author">by Tappei Nagatsuki</p>
+              <p class="syn">A shut-in is pulled into a fantasy world and finds he returns to life each time he dies.</p>
+              <a href="story-1.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Fantasy" data-title="overlord kugane maruyama">
+            <img src="images/cover-2.jpg" alt="Cover of Overlord">
+            <div class="info">
+              <span class="tag">Fantasy · Light Novel</span>
+              <h3>Overlord</h3>
+              <p class="author">by Kugane Maruyama</p>
+              <p class="syn">A gamer is trapped in his favorite game as its undead sorcerer king.</p>
+              <a href="story-2.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Fantasy" data-title="mushoku tensei: jobless reincarnation rifujin na magonote">
+            <img src="images/cover-3.jpg" alt="Cover of Mushoku Tensei: Jobless Reincarnation">
+            <div class="info">
+              <span class="tag">Fantasy · Web Novel</span>
+              <h3>Mushoku Tensei: Jobless Reincarnation</h3>
+              <p class="author">by Rifujin na Magonote</p>
+              <p class="syn">A man reborn in a magical world vows to live without regret.</p>
+              <a href="story-3.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Romance" data-title="horimiya hero & daisuke hagiwara">
+            <img src="images/cover-4.jpg" alt="Cover of Horimiya">
+            <div class="info">
+              <span class="tag">Romance · Manga</span>
+              <h3>Horimiya</h3>
+              <p class="author">by HERO &amp; Daisuke Hagiwara</p>
+              <p class="syn">Two classmates discover each other's hidden sides outside school.</p>
+              <a href="story-4.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Romance" data-title="fruits basket natsuki takaya">
+            <img src="images/cover-5.jpg" alt="Cover of Fruits Basket">
+            <div class="info">
+              <span class="tag">Romance · Manga</span>
+              <h3>Fruits Basket</h3>
+              <p class="author">by Natsuki Takaya</p>
+              <p class="syn">An orphaned girl discovers a family cursed by the zodiac animals.</p>
+              <a href="story-5.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Romance" data-title="kaguya-sama: love is war aka akasaka">
+            <img src="images/cover-6.jpg" alt="Cover of Kaguya-sama: Love Is War">
+            <div class="info">
+              <span class="tag">Romance · Manga</span>
+              <h3>Kaguya-sama: Love Is War</h3>
+              <p class="author">by Aka Akasaka</p>
+              <p class="syn">Two genius student council leaders try to make the other confess first.</p>
+              <a href="story-6.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Sci-Fi" data-title="sword art online reki kawahara">
+            <img src="images/cover-7.jpg" alt="Cover of Sword Art Online">
+            <div class="info">
+              <span class="tag">Sci-Fi · Light Novel</span>
+              <h3>Sword Art Online</h3>
+              <p class="author">by Reki Kawahara</p>
+              <p class="syn">Players are trapped in a VR game where dying means real death.</p>
+              <a href="story-7.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Sci-Fi" data-title="dr. stone riichiro inagaki">
+            <img src="images/cover-8.jpg" alt="Cover of Dr. Stone">
+            <div class="info">
+              <span class="tag">Sci-Fi · Manga</span>
+              <h3>Dr. Stone</h3>
+              <p class="author">by Riichiro Inagaki</p>
+              <p class="syn">After humanity is petrified, a science genius rebuilds civilization.</p>
+              <a href="story-8.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Sci-Fi" data-title="planetes makoto yukimura">
+            <img src="images/cover-9.jpg" alt="Cover of Planetes">
+            <div class="info">
+              <span class="tag">Sci-Fi · Manga</span>
+              <h3>Planetes</h3>
+              <p class="author">by Makoto Yukimura</p>
+              <p class="syn">Space-debris collectors dream of reaching Jupiter in the 2070s.</p>
+              <a href="story-9.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Mystery" data-title="death note tsugumi ohba">
+            <img src="images/cover-10.jpg" alt="Cover of Death Note">
+            <div class="info">
+              <span class="tag">Mystery · Manga</span>
+              <h3>Death Note</h3>
+              <p class="author">by Tsugumi Ohba</p>
+              <p class="syn">A student finds a notebook that kills anyone whose name is written in it.</p>
+              <a href="story-10.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Mystery" data-title="monster naoki urasawa">
+            <img src="images/cover-11.jpg" alt="Cover of Monster">
+            <div class="info">
+              <span class="tag">Mystery · Manga</span>
+              <h3>Monster</h3>
+              <p class="author">by Naoki Urasawa</p>
+              <p class="syn">A surgeon saves a boy's life and later must hunt what he became.</p>
+              <a href="story-11.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Mystery" data-title="detective conan gosho aoyama">
+            <img src="images/cover-12.jpg" alt="Cover of Detective Conan">
+            <div class="info">
+              <span class="tag">Mystery · Manga</span>
+              <h3>Detective Conan</h3>
+              <p class="author">by Gosho Aoyama</p>
+              <p class="syn">A teen detective shrunk to a child solves cases while chasing a syndicate.</p>
+              <a href="story-12.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Horror" data-title="uzumaki junji ito">
+            <img src="images/cover-13.jpg" alt="Cover of Uzumaki">
+            <div class="info">
+              <span class="tag">Horror · Manga</span>
+              <h3>Uzumaki</h3>
+              <p class="author">by Junji Ito</p>
+              <p class="syn">A coastal town becomes obsessed with spirals.</p>
+              <a href="story-13.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Horror" data-title="another yukito ayatsuji">
+            <img src="images/cover-14.jpg" alt="Cover of Another">
+            <div class="info">
+              <span class="tag">Horror · Novel</span>
+              <h3>Another</h3>
+              <p class="author">by Yukito Ayatsuji</p>
+              <p class="syn">A transfer student joins a class cursed with deadly misfortunes.</p>
+              <a href="story-14.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Horror" data-title="parasyte hitoshi iwaaki">
+            <img src="images/cover-15.jpg" alt="Cover of Parasyte">
+            <div class="info">
+              <span class="tag">Horror · Manga</span>
+              <h3>Parasyte</h3>
+              <p class="author">by Hitoshi Iwaaki</p>
+              <p class="syn">Alien parasites take over human heads, but one ends up in a boy's hand.</p>
+              <a href="story-15.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Action" data-title="solo leveling chugong">
+            <img src="images/cover-16.jpg" alt="Cover of Solo Leveling">
+            <div class="info">
+              <span class="tag">Action · Web Novel</span>
+              <h3>Solo Leveling</h3>
+              <p class="author">by Chugong</p>
+              <p class="syn">The world's weakest hunter gains the power to level up without limit.</p>
+              <a href="story-16.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Action" data-title="attack on titan hajime isayama">
+            <img src="images/cover-17.jpg" alt="Cover of Attack on Titan">
+            <div class="info">
+              <span class="tag">Action · Manga</span>
+              <h3>Attack on Titan</h3>
+              <p class="author">by Hajime Isayama</p>
+              <p class="syn">Humanity lives behind walls until giant Titans break through.</p>
+              <a href="story-17.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Action" data-title="demon slayer: kimetsu no yaiba koyoharu gotouge">
+            <img src="images/cover-18.jpg" alt="Cover of Demon Slayer: Kimetsu no Yaiba">
+            <div class="info">
+              <span class="tag">Action · Manga</span>
+              <h3>Demon Slayer: Kimetsu no Yaiba</h3>
+              <p class="author">by Koyoharu Gotouge</p>
+              <p class="syn">A boy becomes a demon hunter to cure his sister.</p>
+              <a href="story-18.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Historical" data-title="vinland saga makoto yukimura">
+            <img src="images/cover-19.jpg" alt="Cover of Vinland Saga">
+            <div class="info">
+              <span class="tag">Historical · Manga</span>
+              <h3>Vinland Saga</h3>
+              <p class="author">by Makoto Yukimura</p>
+              <p class="syn">A young warrior in Viking-age Europe seeks revenge and meaning.</p>
+              <a href="story-19.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Historical" data-title="rurouni kenshin nobuhiro watsuki">
+            <img src="images/cover-20.jpg" alt="Cover of Rurouni Kenshin">
+            <div class="info">
+              <span class="tag">Historical · Manga</span>
+              <h3>Rurouni Kenshin</h3>
+              <p class="author">by Nobuhiro Watsuki</p>
+              <p class="syn">A former assassin wanders Meiji-era Japan with a reverse-blade sword.</p>
+              <a href="story-20.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Historical" data-title="the apothecary diaries natsu hyuuga">
+            <img src="images/cover-21.jpg" alt="Cover of The Apothecary Diaries">
+            <div class="info">
+              <span class="tag">Historical · Light Novel</span>
+              <h3>The Apothecary Diaries</h3>
+              <p class="author">by Natsu Hyuuga</p>
+              <p class="syn">A sharp-minded apothecary solves mysteries in an imperial palace.</p>
+              <a href="story-21.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Comedy" data-title="konosuba natsume akatsuki">
+            <img src="images/cover-22.jpg" alt="Cover of KonoSuba">
+            <div class="info">
+              <span class="tag">Comedy · Light Novel</span>
+              <h3>KonoSuba</h3>
+              <p class="author">by Natsume Akatsuki</p>
+              <p class="syn">A hapless teen is reincarnated with a useless goddess as his party member.</p>
+              <a href="story-22.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Comedy" data-title="gintama hideaki sorachi">
+            <img src="images/cover-23.jpg" alt="Cover of Gintama">
+            <div class="info">
+              <span class="tag">Comedy · Manga</span>
+              <h3>Gintama</h3>
+              <p class="author">by Hideaki Sorachi</p>
+              <p class="syn">A lazy samurai takes odd jobs in an alien-occupied Edo.</p>
+              <a href="story-23.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Comedy" data-title="grand blue kenji inoue">
+            <img src="images/cover-24.jpg" alt="Cover of Grand Blue">
+            <div class="info">
+              <span class="tag">Comedy · Manga</span>
+              <h3>Grand Blue</h3>
+              <p class="author">by Kenji Inoue</p>
+              <p class="syn">A freshman's seaside university life turns into chaos with a diving club.</p>
+              <a href="story-24.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Slice of Life" data-title="yotsuba&! kiyohiko azuma">
+            <img src="images/cover-25.jpg" alt="Cover of Yotsuba&amp;!">
+            <div class="info">
+              <span class="tag">Slice of Life · Manga</span>
+              <h3>Yotsuba&amp;!</h3>
+              <p class="author">by Kiyohiko Azuma</p>
+              <p class="syn">A curious, cheerful girl finds wonder in everyday things.</p>
+              <a href="story-25.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Slice of Life" data-title="barakamon satsuki yoshino">
+            <img src="images/cover-26.jpg" alt="Cover of Barakamon">
+            <div class="info">
+              <span class="tag">Slice of Life · Manga</span>
+              <h3>Barakamon</h3>
+              <p class="author">by Satsuki Yoshino</p>
+              <p class="syn">A calligrapher exiled to a remote island learns from its villagers.</p>
+              <a href="story-26.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Slice of Life" data-title="silver spoon hiromu arakawa">
+            <img src="images/cover-27.jpg" alt="Cover of Silver Spoon">
+            <div class="info">
+              <span class="tag">Slice of Life · Manga</span>
+              <h3>Silver Spoon</h3>
+              <p class="author">by Hiromu Arakawa</p>
+              <p class="syn">A city student learns life on a farm at an agricultural high school.</p>
+              <a href="story-27.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Thriller" data-title="omniscient reader's viewpoint sing shong">
+            <img src="images/cover-28.jpg" alt="Cover of Omniscient Reader's Viewpoint">
+            <div class="info">
+              <span class="tag">Thriller · Web Novel</span>
+              <h3>Omniscient Reader's Viewpoint</h3>
+              <p class="author">by Sing Shong</p>
+              <p class="syn">A reader finds the web novel he followed has become reality.</p>
+              <a href="story-28.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Thriller" data-title="the promised neverland kaiu shirai">
+            <img src="images/cover-29.jpg" alt="Cover of The Promised Neverland">
+            <div class="info">
+              <span class="tag">Thriller · Manga</span>
+              <h3>The Promised Neverland</h3>
+              <p class="author">by Kaiu Shirai</p>
+              <p class="syn">Orphans discover the truth behind their idyllic home and plan an escape.</p>
+              <a href="story-29.html" class="btn">Read Story</a>
+            </div>
+          </article>
+          <article class="card" data-genre="Thriller" data-title="liar game shinobu kaitani">
+            <img src="images/cover-30.jpg" alt="Cover of Liar Game">
+            <div class="info">
+              <span class="tag">Thriller · Manga</span>
+              <h3>Liar Game</h3>
+              <p class="author">by Shinobu Kaitani</p>
+              <p class="syn">A kind college student is dragged into a high-stakes game of deception.</p>
+              <a href="story-30.html" class="btn">Read Story</a>
+            </div>
+          </article>
+        </div>
+        <p hidden id="empty">No stories found.</p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 NovelTin · ITE 1 Project</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
